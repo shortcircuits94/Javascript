@@ -1,0 +1,62 @@
+{"movies":[
+{
+	"movie": "All Eyez On Me",
+	"rank": "10",
+	"genre": "Drama",
+	"rating": "18%"
+}, 
+{
+	"movie": "The House",
+	"rank": "9",
+	"genre": "Comedy",
+	"rating": "17%"
+}, 
+{
+	"movie": "The Dark Tower",
+	"rank": "8",
+	"genre": "Drama",
+	"rating": "16%"
+}, 
+{
+	"movie": "The Mummy",
+	"rank": "7",
+	"genre": "Action",
+	"rating": "16%"
+}, 
+{
+	"movie": "Transformers: The Last Night",
+	"rank": "6",
+	"genre": "Action",
+	"rating": "15%"
+}, 
+{
+	"movie": "The Emoji Movie",
+	"rank": "5",
+	"genre': "Animated",
+	"rating": "9%"
+}, 
+{
+	"movie": "The Nut Job 2: Nutty By Nature",
+	"rank": "4",
+	"genre': "Animated",
+	"rating": "9%"
+}, 
+{
+	"movie": "Rings",
+	"rank": "3",
+	"genre': "Horror",
+	"rating": "7%"
+}, 
+{
+	"movie": "Tyler Perry’s Boo! 2: A Madea Halloween ",
+	"rank": "2",
+	"genre': "Comedy",
+	"rating": "6%",
+}, 
+{
+	"movie": "Just Get Started",
+	"rank": "1",
+	"genre': "Comedy",
+	"rating": "1"
+}
+]}

@@ -1,0 +1,48 @@
+
+h1{text-align:center;}
+.panel {
+	display: none;
+}
+img {
+width: 150px;}
+ul li {
+	list-style: none; 
+}
+footer{text-align:center;}
+
+.tab-list {
+  margin: 0;
+  padding: 0;}
+
+.tab-list li {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid gray;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  }
+
+.tab-list li a {
+  color: gray;
+  display: block;
+  padding: 3px 10px 3px 10px;}
+  
+  .tab-panel {
+  display: none;
+  color: #666;
+  min-height: 100px;
+  overflow: auto;}
+
+.tab-panel.active {
+  display: block;}
+
+.tab-panel p {
+  margin: 20px;}
+  
+  .tab-list li.active, .tab-list li.hover {
+  color: black;}
+
+.tab-list li.active a, .tab-list li a:hover {
+  color: #666;
+  background-color: #gray;}

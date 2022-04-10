@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 10</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="skeleton.css">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+</head>
+<body>
+<div class="container">
+<header><h1>Personal Suvery</h1></header>
+<form method="post" action="https://php.scweb.ca/formsubmit" name="register" id="interests" novalidate >
+	<div class="name">
+        <label for="name" class="required">Name:</label>
+        <input type="text" placeholder="Enter your name" name="name" id="name" title="Please enter your name" required min="2S">
+        </div>
+          <label for="age" class="required">Age:</label>
+            <input type="number" placeholder="Age" name="age" id="age" required min="0" max="150">
+          <div id="password">
+            <label for="password" class="required">Password:</label>
+            <input type="password" name="password"class="form-control my-password"  required>
+			<input type="checkbox" name="viewPassword" class="showPassword" value="View Password">
+          </div>
+		  <div class="birthday">
+            <label for="birthday" class="required">Birthday:</label>
+            <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+          </div>
+		   <div class="bio">
+            <label for="bio">Short Bio (max 140 characters):</label>
+            <textarea name="bio" id="bio" rows="5" cols="30" min="10"max="140"></textarea>
+            <span id="bio-count" class="hide">140</span>
+          </div>
+		  <div id="subject">
+		   <fieldset>
+            <legend>Subjects</legend>
+            <label><input type="checkbox" value="all" id="all">All</label>
+            <label><input type="checkbox" name="subject" value="gym">Gym</label>
+            <label><input type="checkbox" name="subject" value="math">Math</label>
+            <label><input type="checkbox" name="subject" value="english">English</label>
+			<label><input type="checkbox" name="subject" value="french">French</label>
+          </fieldset>
+		  </div>
+		  <fieldset>
+            <legend>How did you hear of us?</legend>
+			<div id = "radio">
+            <input type="radio" name="heard" value="search" id="search" />
+            <label for="search">Search engine</label>
+            <input type="radio" name="heard" value="print" id="print" />
+            <label for="print">Newspaper or magazine</label>
+            <input type="radio" name="heard" value="other" id="other" />
+            <label for="other">Other</label>
+			</div>
+  
+          </fieldset>
+		   <fieldset>
+            <legend>Did you find us online?</legend>
+              <label for="online">Website</label>
+              <select id="online" name="webType" required>
+                <option value="">None</option>
+                <option value="google">Google</option>
+                <option value="LinkedIn">LinkedIN</option>
+                <option value="St Clair">St Clair College</option>
+              </select>
+          </fieldset>
+         <input type='submit' name='submit' id='submitBtn' disabled />
+		 
+        </fieldset>
+		</form>
+<script src="jquery-1.11.0.min.js"></script>
+<script src="jquery.js"></script>
+</body>
+</html>
