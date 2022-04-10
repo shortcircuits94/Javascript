@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<title>Assignment 5</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+</head>
+<body>
+	<header>
+		<h1>Port Hope</h1>
+	</header>
+	<section>
+		<p>Port Hope is a municipality in Southern Ontario, Canada, about 109 kilometres (68 mi) east of Toronto and about 159 kilometres (99 mi) west of Kingston. It is located at the mouth of the Ganaraska River on the north shore of Lake Ontario, in the west end of Northumberland County. Port Hope's nearest urban neighbour (25 km to the west) is the City of Oshawa. Since 1868, the town has been home to Trinity College School (previously located in Weston, Ontario).</p>
+	</section>
+	<section>
+	<div id="accordion">
+		<h3>Capitol Theatre</h3>
+		<div class="panel">
+		<img src="captheatre.jpg" title="capital theatre" alt="captheatre"/>
+		<p>The Capitol Theatre is located in Port Hope, Ontario, and is one of the last fully restored atmospheric movie theatres still in operation in Canada.[1] Now a National Historic Site and still used for performances, it was constructed in 1930, with an interior designed to resemble a walled medieval courtyard surrounded by a forest. It was one of the first cinemas in the country built expressly for talking pictures. It opened on Friday, August 15, 1930, screening Queen High starring Charlie Ruggles and Ginger Rogers.</p>
+		</div>
+		<h3>Canadian Fire Fighters Museum</h3>
+		<div class="panel">
+		<img src="firefighters.jpg" title="Fire Fighter" alt="firemuseum"/>
+		<p>Tourist attraction in Port Hope, Ontario</p>
+		</div>
+		<h3>Molson Mill</h3>
+		<div class="panel">
+		<img src="molsonmill.jpg" title="Molson Mill" alt="molsonmill"/>
+		<p>Historical landmark in Port Hope, Ontario</p>
+		</div>
+	</div>
+	</section>
+	<section>
+		<h2>Map of Attractions</h2>
+		<div id="map"></div>
+		<script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center:  {lat: 43.960117, lng: -78.296515}
+        });
+		var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+		var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      }
+	  var locations = [
+	  {lat: 43.9508, lng: -78.2933},
+	  {lat: 43.946259, lng: -78.290838},
+	  {lat: 43.967983, lng: -78.294749}
+	  ]
+	 </script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBp1drhHqr9m6S5JrIwF7NWVv-zfc_Jg4s&callback=initMap"></script>
+	<footer>
+		<a href="https://en.wikipedia.org/wiki/Port_Hope,_Ontario">Source: Wikipedia Port Hope</a>
+	</footer>
+</body>
+</html>

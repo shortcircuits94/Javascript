@@ -1,0 +1,48 @@
+* {margin: 0; padding: 0;}
+
+body{
+	background-color: #3443;
+	max-width: 960px;
+	margin: auto;
+	font-family: 'Slabo 27px', serif;
+	padding: 10px;
+}
+
+h1, h2 {
+	text-align: center; 
+}
+#map {
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, #accordion:hover {
+    background-color: #ccc;
+}
+
+#panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+footer {
+	text-align:center;
+	font: 0.25em;
+	padding: 10px;
+}
+
