@@ -1,0 +1,234 @@
+{
+    "proginfo": {
+      "title": "Internet Applications and Web Development Advanced",
+      "programcode": "B948",
+      "college": "St. Clair College",
+      "url": "http://www.stclaircollege.ca/programs/postsec/internet_apps_web_development/"
+    },
+    "courses": [
+      {
+        "url": "http://scweb.ca/webcourses.php#mit153",
+        "code": "MIT153",
+        "title": "Introductory Programming Logic",
+        "credit": 4,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mit160",
+        "code": "MIT160",
+        "title": "Business Driven Information Systems",
+        "credit": 4,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mrk225",
+        "code": "MRK225",
+        "title": "Web Marketing",
+        "credit": 3,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web110",
+        "code": "WEB110",
+        "title": "HTML/CSS",
+        "credit": 4,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web190",
+        "code": "WEB190",
+        "title": "Visual Communications I",
+        "credit": 4,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#elec1030",
+        "code": "ELEC1030",
+        "title": "Gen Ed Elective",
+        "credit": 3,
+        "semester": 1
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mit215",
+        "code": "MIT215",
+        "title": "Working with Data",
+        "credit": 4,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web210",
+        "code": "WEB210",
+        "title": "Web Design/CSS",
+        "credit": 4,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web220",
+        "code": "WEB220",
+        "title": "Web Usability",
+        "credit": 3,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web230",
+        "code": "WEB230",
+        "title": "JavaScript I",
+        "credit": 4,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web205",
+        "code": "WEB205",
+        "title": "PHP Basics",
+        "credit": 4,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#elec1030",
+        "code": "ELEC1030",
+        "title": "Gen Ed Elective",
+        "credit": 3,
+        "semester": 2
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web303",
+        "code": "WEB303",
+        "title": "JavaScript 2",
+        "credit": 4,
+        "semester": 3
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web310",
+        "code": "WEB310",
+        "title": "Web Applications with PHP and MySQL",
+        "credit": 4,
+        "semester": 3
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web315",
+        "code": "WEB315",
+        "title": "Introduction to ASP.NET",
+        "credit": 4,
+        "semester": 3
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web495",
+        "code": "WEB495",
+        "title": "Rich Media Communications",
+        "credit": 4,
+        "semester": 3
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#elec1030",
+        "code": "ELEC1030",
+        "title": "Open Elective",
+        "credit": 3,
+        "semester": 3
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#com401",
+        "code": "COM401",
+        "title": "Communications in a Changing World",
+        "credit": 3,
+        "semester": 4
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web402",
+        "code": "WEB402",
+        "title": "Intermediate Web Apps with PHP",
+        "credit": 4,
+        "semester": 4
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web452",
+        "code": "WEB452",
+        "title": "Developing Web Applications using ASP.NET",
+        "credit": 4,
+        "semester": 4
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mit456",
+        "code": "MIT456",
+        "title": "Linux Web Server Adminisrtation",
+        "credit": 4,
+        "semester": 4
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web400",
+        "code": "WEB400",
+        "title": "Web Communications Project",
+        "credit": 4,
+        "semester": 4
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mit507",
+        "code": "MIT507",
+        "title": "Windows Web Server Administration",
+        "credit": 4,
+        "semester": 5
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web510",
+        "code": "WEB510",
+        "title": "Advanced Web Apps with PHP",
+        "credit": 4,
+        "semester": 5
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web552",
+        "code": "WEB552",
+        "title": "Advanced Web Applications using ASP.NET",
+        "credit": 4,
+        "semester": 5
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web595",
+        "code": "WEB595",
+        "title": "Rich Media Communications II",
+        "credit": 4,
+        "semester": 5
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web505",
+        "code": "WEB505",
+        "title": "Systems Analysis and Design",
+        "credit": 4,
+        "semester": 5
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web600",
+        "code": "WEB600",
+        "title": "Web Communications Project II",
+        "credit": 4,
+        "semester": 6
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web605",
+        "code": "WEB605",
+        "title": "Mobile Web Development",
+        "credit": 3,
+        "semester": 6
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#mit650",
+        "code": "MIT650",
+        "title": "Web Project Management",
+        "credit": 3,
+        "semester": 6
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web612",
+        "code": "WEB612",
+        "title": "Developing Multimedia Communications",
+        "credit": 4,
+        "semester": 6
+      },
+      {
+        "url": "http://scweb.ca/webcourses.php#web615",
+        "code": "WEB615",
+        "title": "New Technologies and Trends",
+        "credit": 4,
+        "semester": 6
+      }
+    ]
+  }

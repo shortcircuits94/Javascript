@@ -1,0 +1,22 @@
+Assignment 8: use DOM manipulation to add save functionality to the game
+
+Start with your Lab 16 solution.
+
+1. To make sure nothing happens when the user clicks on a square that
+   already contains a marker:
+    - remove the onclick attribute from the clicked TD element in the 
+	  squareClicked function.
+	- add the onclick attribute to each TD when setting a new game
+	- remove the onclick attribute from the each TD that has a marker
+	  when loading a game.
+
+2. Modify the squareClicked function so that it will:
+	- make sure the square does not have an X or O in it
+    - determine which player's turn it is
+	- create a new DIV element with the correct class and place it in the 
+	  clicked TD (don't use innerHTML)
+	- change the current player
+	
+3. In the setBanner function, check to see if a banner has already been set
+   and delete the old one before setting the new one.
+

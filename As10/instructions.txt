@@ -1,0 +1,16 @@
+Assignment 10 - Event Delegation
+
+Start with a copy of the finished code from lab 18 or the included JS file.
+
+Let's make it a bit more user friendly.
+
+1. After inserting a new item, clear the input field.
+
+2. If the user presses the enter key, perform the same action as clicking the 
+   plus button.
+
+3. Check to make sure that the user entered something into the input field 
+   adding it to the list.
+   
+4. When the user clicks on the heading, show a prompt to allow them to change the 
+   title. Make sure they entered something before changing it.

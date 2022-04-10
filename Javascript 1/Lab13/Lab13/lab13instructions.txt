@@ -1,0 +1,13 @@
+Lab 13 : Working with DOM elements II 
+
+1. Copy the main.js file from lab 12. Delete the lines (or comment them out) 
+   that set the markers and the colours.
+
+2. In the init() function, use a method to get all <td> elements. 
+
+3. Loop through the nodelist and add an onclick attribute pointing to a new 
+   function called squareClicked() in the js file. Pass the argument 'this' 
+   ie: squareClicked(this) so you can work with the element in the function.
+
+4. Create the squareClicked() function. It will accept one argument called "sqr".
+   In the function add a statement to show an alert dialog with a message in it.

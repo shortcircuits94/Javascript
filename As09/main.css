@@ -1,0 +1,122 @@
+body {
+	background-color: #444;
+	margin: 0px;
+	font-family: Verdana, sans-serif;
+	padding: 50px;
+}
+
+h2 {
+	margin: 0px;
+	padding-bottom: 10px;
+	font-size: 1.7em;
+	border-bottom: 4px solid #ddd;
+}
+
+#post {
+	width: 500px;
+	margin: 0px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+#post_body {
+	border-bottom: 1px solid black;
+}
+
+#comments p {
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 2px;
+	position: relative;
+	white-space: pre-line;
+}
+
+#comments p:hover:not(.placeholder) {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+#comments .delete {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	padding: 2px;
+}
+
+#comments .delete::before {
+	content: 'x';
+}
+
+#comments .delete:hover {
+	color: #D00000;
+	cursor: pointer;
+}
+
+#new_comment_text {
+	width: 494px;
+	height: 70px;
+}
+
+#char_count_text {
+	font-size: 0.5em;
+	width: 100px;
+	float: left;
+}
+
+#submit_comment {
+	float: right;
+	margin-top: 10px;
+}
+
+a#submit_comment {
+	width: 494px;
+	padding: 5px 2px;
+	border: 1px solid #777;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+a#submit_comment:hover {
+	background-color: lightblue;
+}
+
+.dark h2 {
+	border-bottom: 4px solid #444;
+}
+.dark #post {
+	background-color: #999;
+}
+.dark #comments p {
+	background-color: #ddd;
+}
+
+#show_log {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: white;
+	background-color: #899999;
+	padding: 3px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#event_log {
+	position: absolute;
+	width: 80%;
+	height: 500px;
+	background-color: white;
+	border: 5px solid #900000;
+	border-radius: 5px;
+	z-index: 10;
+	bottom: 50px;
+	left: 10%;
+	display:none;
+	white-space: pre;
+	font-size: 0.5em;
+	padding: 30px;
+	overflow: hidden;
+}

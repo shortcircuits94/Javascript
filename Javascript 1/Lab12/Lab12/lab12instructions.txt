@@ -1,0 +1,23 @@
+Lab 12 : Working with DOM elements
+
+1. Create a JS file called "main.js" and place it in the same folder as the HTML file. 
+   Create a function called init() which will execute in response to the onload event which 
+   is already included in the <body> tag in the HTML. 
+
+2. In main.js, we will set up a game in progress.
+   - For each of the cells below, create a <div> inside the table cell 
+   - set the class of the new div in cells 1,3,5 to X-marker
+   - set the class of the new div in cells 4,6,7 to O-marker
+   - player X is not very smart. Set the class of the new div in cell 8 to X-marker.
+   - Finish the game by setting the class of a new div in cell 2 to O-marker.
+
+3. Select all of the winning players' cells. 
+   - Set the background colour of all winning cells to green
+   - Set the background colour of the last played cell to yellow
+   - Set the background colour of all losing cells to red
+
+4. Modify the new game button in the HTML code to call a function named newGame()
+   - hint: onclick=""
+   - In the new game select all <td> elements.
+   - remove the content div from each of them by clearing the innerHTML property
+

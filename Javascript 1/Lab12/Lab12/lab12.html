@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- WEB230 Lab 12 : Working with DOM elements -->
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<meta name="viewport" content="width=600" />
+	<link rel="stylesheet" href="main.css">
+</head>
+<body onload="init();">  
+	<div id="players">
+		<div id="X" class="X-marker">Player X</div>
+		<div id="O" class="O-marker">Player O</div>
+		<input type="button" class="button" value="New Game" onclick="newGame()">
+	</div>
+	<table>
+		<tr>
+			<td id="c0"><div id="" class=""></div></td>
+			<td id="c1"><div id="X" class="X-marker"></div></td>
+			<td id="c2"><div id="O" class="O-marker"></div></td>
+		</tr>
+		<tr>
+			<td id="c3"><div id="X" class="X-marker"></div></td>
+			<td id="c4"><div id="O" class="O-marker"></div></td>
+			<td id="c5"><div id="X" class="X-marker"></div></td>
+		</tr>
+		<tr>
+			<td id="c6"><div id="O" class="O-marker"></div></td>
+			<td id="c7"><div id="O" class="O-marker"></div></td>
+			<td id="c8"><div id="X-" class="X-marker"></div></td>
+		</tr>
+	</table>
+	<script src="main.js"></script>
+</body>
+</html>

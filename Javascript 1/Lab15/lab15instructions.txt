@@ -1,0 +1,19 @@
+Lab 15 : Working with DOM elements IV
+
+1. Modify your code from Lab 14 to create the div elements with DOM manipulation 
+   (createElement, appendElement, etc.)
+   
+2. Modify the new game button to use DOM traversal and manipulation to 
+    - navigate through all children of the <tbody> element
+    - remove all divs from the table through DOM manipulation (not innerHTML)
+
+3. In the init() method, use DOM traversal to add a button before the "New Game" 
+   button labelled "Set Banner". This button will call a new function called
+   setBanner().
+   
+4. In the setBanner function:
+    - Prompt the user to input a title for the game.
+    - Create an h1 element to contain this input.  
+    - Securely (careful of HTML) insert the input into the h1 element and add it
+	  to the page immediately after the opening body tag.
+

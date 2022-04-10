@@ -1,0 +1,22 @@
+# Assignment 9
+## WEB230 Chapter 6
+
+Make a copy of the finished lab 17 javascript file or use the included solution.
+
+1. When an existing comment receives a click, append the text of the comment 
+   into the textarea as a quotation (ie. "> Clicked comment.\n\n"). Give the 
+   textarea focus.
+   Hint: Since the comments are inserted dynamically, you will want to attach 
+   the event listener to the parent div and have the events delegated to each 
+   paragraph. Use the event object to determine which comment was clicked.
+
+2. Whenever you add a comment, append an empty span with the class 'delete' to
+   the comment paragraph. Add an click event listener for this span.
+   
+3. When the delete span is clicked:
+    - delete the comment
+    - ensure that the event does not bubble and the contents of the comment
+      do NOT get added to the textarea as a quotation
+
+4. Modify the comment counter so it will show the right count
+
